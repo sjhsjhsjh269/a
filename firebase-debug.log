@@ -1,0 +1,45 @@
+[debug] [2024-09-14T10:32:51.520Z] ----------------------------------------------------------------------
+[debug] [2024-09-14T10:32:51.524Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2024-09-14T10:32:51.525Z] CLI Version:   13.13.1
+[debug] [2024-09-14T10:32:51.526Z] Platform:      linux
+[debug] [2024-09-14T10:32:51.526Z] Node Version:  v18.19.1
+[debug] [2024-09-14T10:32:51.526Z] Time:          Sat Sep 14 2024 10:32:51 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-09-14T10:32:51.527Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-14T10:32:51.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-14T10:32:51.536Z] > authorizing via signed-in user (sjhsjhsjh269@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/test01
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-14T10:32:59.119Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-09-14T10:32:59.657Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-09-14T10:32:59.657Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project sample-firebase-ai-app-159c3 (Sample Firebase AI App) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-14T10:33:01.293Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-ai-app-159c3 [none]
+[debug] [2024-09-14T10:33:01.536Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-ai-app-159c3 200
+[debug] [2024-09-14T10:33:01.536Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sample-firebase-ai-app-159c3 {"projectId":"sample-firebase-ai-app-159c3","projectNumber":"182314907433","displayName":"Sample Firebase AI App","name":"projects/sample-firebase-ai-app-159c3","resources":{"hostingSite":"sample-firebase-ai-app-159c3"},"state":"ACTIVE","etag":"1_1466c046-0dd5-4fd9-8c98-2467e5dab407"}
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /home/user/test01 is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=207535402&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
